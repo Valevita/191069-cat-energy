@@ -1,0 +1,7 @@
+.contacts {
+  @include container;
+}
+
+.contacts__address-wrapper {
+  display: flex;
+}
