@@ -1,0 +1,16 @@
+.catalog-more {
+  @include container;
+}
+
+.catalog-more__text-show {
+  font-family: $font;
+  font-size: 16px;
+  line-height: 20px;
+  color: #111;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.catalog-more__text-regular {
+  text-align: center;
+}

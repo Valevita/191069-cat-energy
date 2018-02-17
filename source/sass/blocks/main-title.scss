@@ -1,9 +1,24 @@
 .main-title {
   width: $width;
   margin: 0 auto;
+  padding-top: 20px;
   font-family: $font;
   font-size: 36px;
   line-height: 36px;
   color: #fff;
   text-align: center;
+}
+
+.main-title--dark {
+  color: #111;
+}
+
+@media (min-width: 768px) {
+  .main-title {
+    width: 427px;
+    font-size: 60px;
+    line-height: 60px;
+    color: #111;
+    text-align: left;
+  }
 }

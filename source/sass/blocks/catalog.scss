@@ -1,0 +1,13 @@
+.catalog {
+  @include container;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .catalog {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}

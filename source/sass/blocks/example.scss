@@ -1,11 +1,70 @@
 .example__text {
   width: $width;
-  margin: 0 auto;
   margin-bottom: 20px;
   line-height: 18px;
 }
 
 .example {
     @include container;
-    padding: 20px;
+  }
+
+.example__result-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.example__result-number {
+  font-family: $font;
+  font-size: 24px;
+  line-height: 24px;
+  color: #111;
+}
+
+.example__result-text {
+  display: block;
+  margin: 0 auto;
+  background-color: $light-grey;
+  width: 86px;
+  transform: translateY(5px);
+}
+
+.example__result {
+  width: 122px;
+  height: 56px;
+  box-sizing: border-box;
+  padding-top: 10px;
+  border-radius: 3px;
+  border: 1px solid #d0d0d0;
+  text-align: center;
+}
+
+.example__expenses {
+  margin-top: 40px;
+  font-family: $font;
+  font-size: 14px;
+  line-height: 20px;
+  color: #111;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .example__text {
+    width: 100%;
+  }
+
+  .example__result-wrapper {
+    width: 384px;
+  }
+
+  .example__expenses {
+    margin-top: 0;
+    width: 170px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: right;
+  }
+
+  .example__result-data {
+    display: flex;
+  }
 }

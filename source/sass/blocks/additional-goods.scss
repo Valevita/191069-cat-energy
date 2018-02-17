@@ -1,0 +1,39 @@
+.additional-goods {
+  @include container;
+}
+
+.additional-goods__title {
+  font-family: $font;
+  font-size: 16px;
+  line-height: 16px;
+  color: #111;
+  text-transform: uppercase;
+}
+
+.additional-goods__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .additional-goods__row {
+    justify-content: flex-end;
+    width: 350px;
+
+  }
+
+  .additional-goods__quantity {
+    margin-right: 20px;
+  }
+
+  .additional-goods__item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .additional-goods__title {
+    width: 155px;
+  }
+}

@@ -1,0 +1,24 @@
+.social {
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.social__item {
+  width: 20px;
+  height: 20px;
+}
+
+.social__item--vk {
+  background: url("../img/icon-vk-mobile.svg") no-repeat center;
+}
+
+.social__item--insta {
+  background: url("../img/icon-insta-mobile.svg") no-repeat center;
+}
+
+.social__item--facebook {
+  background: url("../img/icon-fb-mobile.svg") no-repeat center;
+}

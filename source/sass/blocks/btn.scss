@@ -1,9 +1,23 @@
 .btn {
+  @include container;
+  box-sizing: border-box;
   display: block;
-  width: $width;
-  margin: 0 auto;
+  height: 40px;
+  padding-top: 7px;
+  background-color: $green;
   text-decoration: none;
   color: #fff;
   font-family: $font;
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  .btn {
+    width: 249px;
+  }
+
+  .btn--additional-goods {
+    width: 100%;
+    flex-grow: 1;
+  }
 }

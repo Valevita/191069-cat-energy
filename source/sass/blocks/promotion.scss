@@ -1,0 +1,22 @@
+.promotion {
+  width: 280px;
+  margin: 0 auto;
+  height: 289px;
+  background: $green url("../img/gift-photo-mobile@1x.jpg") no-repeat center;
+}
+
+.promotion__text {
+  width: 180px;
+  margin: 0 auto;
+  padding-top: 150px;
+  font-size: 16px;
+  line-height: 16px;
+  color: #fff;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .promotion {
+    width: 708px;
+  }
+}
