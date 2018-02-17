@@ -1,0 +1,10 @@
+.image-area-container {
+  background-color: $green;
+  background: $green url(../img/index-background-mobile@1x.jpg) no-repeat center;
+}
+
+@media (min-width: 768px) {
+  .image-area-container {
+    background: #fff;
+  }
+}
